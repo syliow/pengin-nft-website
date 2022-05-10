@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 module.exports = {
   mode: 'jit',
   purge: ['./src/**/*.{js,ts,jsx,tsx}'],
@@ -17,11 +18,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#ec4755',
-        secondary: '#a12c34',
-        tertiary: '#99a0a3',
+        primary: '#639cd9',
+        secondary: '#5454c5',
+        tertiary: '#ca9dd7',
         border: '#1a2e35',
-        background: '#ffffff',
+        background: '#000000',
       },
       animation: {
         vote: 'vote 1s ease-in-out',
