@@ -1,0 +1,164 @@
+{
+  "company": {
+    "name": "React landing page 2021",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "Product",
+      "href": "product"
+    },
+    {
+      "name": "Features",
+      "href": "features"
+    },
+
+    {
+      "name": "Pricing",
+      "href": "pricing"
+    },
+    {
+      "name": "Team",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "Get started",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Welcome to the",
+    "subtitle": "Pengin Club",
+    "description": "Pengin is a collection of 3,333 Penguin NFTs—unique digital collectibles living on the Ethereum blockchain.",
+    "img": "/assets/images/banner_image.png",
+    "primaryAction": {
+      "text": "Mint a Pengin!",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "View on OpenSea",
+      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+    }
+  },
+  "product": {
+    "title": "Welcome to the Club",
+    "items": [
+      {
+        "title": "Rarity",
+        "description": "Each Pengin is generated randomly using all the traits, so each Pengins is unique in their own ways. However, some Pengins are more unique than others. If you’re lucky, you might get a legendary trait!",
+        "img": "/assets/images/409.png"
+      },
+      {
+        "title": "The Pengins",
+        "description": "The Pengins are stored as ERC-721 tokens on the Ethereum blockchain and hosted on IPFS. Purchasing an Pengin costs 0.02 ETH.",
+        "img": "/assets/images/pengin_gif.gif"
+      }
+    ]
+  },
+  "features": {
+    "title": "Pengin Club ",
+    "subtitle": "Verified Smart Contract Address",
+    "description": "0x846FB11a8A8B3186d172ed7F283693815a7A3e18",
+    "items": [
+      {
+        "name": "React.js",
+        "description": "3,333 Unique Pengin Token",
+        "icon": "/assets/images/409.png"
+      },
+      {
+        "name": "Tailwind",
+        "description": "Fair launch. All Pengin cost 0.02 ETH",
+        "icon": "/assets/images/494.png"
+      },
+      {
+        "name": "Next.js",
+        "description": "Ownership and commercial usage rights given to the consumer over their NFT",
+        "icon": "/assets/images/2422.png"
+      },
+      {
+        "name": "Typescript",
+        "description": "Gain additional benefits through roadmap activations",
+        "icon": "/assets/images/3205.png"
+      }
+    ],
+
+    "traitsTitle": "Pengin Club Traits",
+    "traitsSubtitle": "30+ Hand Crafted Traits Ranging From Backgrounds, Head Accessories, Hand Accessories & More!",
+    "traits": [
+      {
+        "name": "",
+        "description": "Backgrounds",
+        "icon": "/assets/images/Background.png"
+      },
+      {
+        "name": "",
+        "description": "Eye Accessories",
+        "icon": "/assets/images/Eye_Accessories.png"
+      },
+      {
+        "name": "",
+        "description": "Head Accessories",
+        "icon": "/assets/images/Head_Accessories.png"
+      },
+      {
+        "name": "",
+        "description": "Hand Accessories",
+        "icon": "/assets/images/Hand_Accessories.png"
+      },
+      {
+        "name": "",
+        "description": "Pengin",
+        "icon": "/assets/images/Pengin_Body.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Meet the Team",
+    "team": [
+      {
+        "name": "@Shanyi",
+        "role": "Founder",
+        "image": "/assets/images/Pengin.png"
+      },
+      {
+        "name": "@PenginKing",
+        "role": "Lead Developer",
+        "image": "/assets/images/Pengin.png"
+      },
+      {
+        "name": "@PenginQueen",
+        "role": "Lead Designer",
+        "image": "/assets/images/Pengin.png"
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      },
+      {
+        "name": "Something",
+        "href": "#",
+        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/issaafalkattan",
+      "twitter": "https://twitter.com/issaafkattan",
+      "linkedin": "https://www.linkedin.com/in/syliow1107/"
+    }
+  }
+}
