@@ -4,8 +4,8 @@ import config from "../config/index.json";
 import Divider from "./Divider";
 
 const Product = () => {
-  const { product } = config;
-  const [firstItem, secondItem] = product.items;
+  const { aboutUs } = config;
+  const [firstItem, secondItem] = aboutUs.items;
 
   return (
     <section className={`bg-background py-8`} id="product">
@@ -13,7 +13,7 @@ const Product = () => {
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
-          {product.title.split(" ").map((word, index) => (
+          {aboutUs.title.split(" ").map((word, index) => (
             <span
               key={index}
               className={index % 2 ? "text-primary" : "text-secondary"}
@@ -70,7 +70,7 @@ const Product = () => {
             <div className="p-5 sm:mt-0 sm:ml-3">
               <a
                 href={"https://testnets.opensea.io/collection/pengin-nft"}
-                className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10 text-center`}
+                className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary  text-secondary bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10 text-center`}
               >
                 {/* {mainHero.secondaryAction.text} */}
                 Buy on OpenSea
