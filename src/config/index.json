@@ -1,21 +1,16 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Pengin Club",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "About Us",
+      "href": "aboutUs"
     },
     {
       "name": "Features",
       "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
     },
     {
       "name": "Team",
@@ -40,7 +35,7 @@
       "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
     }
   },
-  "product": {
+  "aboutUs": {
     "title": "Welcome to the Club",
     "items": [
       {
