@@ -3,17 +3,17 @@ import React from "react";
 import config from "../config/index.json";
 import Divider from "./Divider";
 
-const Product = () => {
-  const { aboutUs } = config;
-  const [firstItem, secondItem] = aboutUs.items;
+const AboutUs = () => {
+  const { about } = config;
+  const [firstItem, secondItem] = about.items;
 
   return (
-    <section className={`bg-background py-8`} id="product">
+    <section className={`bg-background py-8`} id="aboutUs">
       <div className={`container max-w-5xl mx-auto m-8`}>
         <h1
           className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
         >
-          {aboutUs.title.split(" ").map((word, index) => (
+          {about.title.split(" ").map((word, index) => (
             <span
               key={index}
               className={index % 2 ? "text-primary" : "text-secondary"}
@@ -59,21 +59,19 @@ const Product = () => {
               <p className={`text-white mb-8`}>{secondItem?.description}</p>
             </div>
           </div>
-          <div className="flex flex-row bg-tertiary mt-10">
+          <div className="flex flex-row bg-tertiary mt-20">
             <div className="text-white uppercase text-center p-10">
-              Buy a Pengin
+              {about.bannerTitle}
             </div>
             <div className="text-white text-center p-10">
-              To get your Pengin, Mint it now or check out the collection on
-              OpenSea.
+              {about.bannerDescription}
             </div>
             <div className="p-5 sm:mt-0 sm:ml-3">
               <a
                 href={"https://testnets.opensea.io/collection/pengin-nft"}
                 className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary  text-secondary bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10 text-center`}
               >
-                {/* {mainHero.secondaryAction.text} */}
-                Buy on OpenSea
+                {about.button}
               </a>
             </div>
           </div>
@@ -83,4 +81,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default AboutUs;
