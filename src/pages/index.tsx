@@ -42,7 +42,6 @@ const App = () => {
       </LazyShow>
       <LazyShow>
         <>
-          <Canvas />
           <About />
         </>
       </LazyShow>
