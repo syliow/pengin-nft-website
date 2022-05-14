@@ -35,7 +35,7 @@ const Features = () => {
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-4 md:gap-x-8 md:gap-y-10">
             {featuresList.map((feature) => (
-              <div key={feature.name} className="relative">
+              <div key={feature.description} className="relative">
                 <img
                   className="w-full"
                   src={feature.icon}
@@ -51,7 +51,7 @@ const Features = () => {
           </dl>
         </div>
         {/* Section 2 */}
-        <div className="lg:text-center">
+        <div className="lg:text-center mt-20">
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-primary sm:text-4xl">
             {traitsTitle}
           </p>
@@ -62,9 +62,9 @@ const Features = () => {
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-5 md:gap-x-8 md:gap-y-10">
             {traitsList.map((traits) => (
-              <div key={traits.name} className="relative">
+              <div key={traits.description} className="relative">
                 <img
-                  className="w-full"
+                  className="w-full hover:animate-bounce"
                   src={traits.icon}
                   alt="Pengin NFTs"
                 ></img>
