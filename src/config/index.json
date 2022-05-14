@@ -28,11 +28,11 @@
     "img": "/assets/images/banner_image.png",
     "primaryAction": {
       "text": "Mint a Pengin!",
-      "href": "#"
+      "href": "https://pengin-nftmint.netlify.app/"
     },
     "secondaryAction": {
       "text": "View on OpenSea",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "https://testnets.opensea.io/collection/pengin-nft-club"
     }
   },
   "about": {
