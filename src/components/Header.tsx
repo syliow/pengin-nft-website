@@ -59,7 +59,9 @@ const Menu = () => {
                 </Link>
               ))}
               <a
-                href="#"
+                href="https://pengin-nftmint.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`font-medium text-primary hover:text-secondary`}
               >
                 Join Us Now!
