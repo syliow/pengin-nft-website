@@ -18,18 +18,16 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2
-            className={`text-base text-primary font-semibold tracking-wide uppercase`}
+            className={`text-base text-primary font-semibold tracking-wide uppercase text-center`}
           >
             {title}
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-secondary sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-secondary sm:text-4xl text-center">
             {subtitle}
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-white lg:mx-auto">
-            <a href="https://rinkeby.etherscan.io/address/0x846fb11a8a8b3186d172ed7f283693815a7a3e18">
-              {description}
-            </a>
-          </p>
+          <a href="https://rinkeby.etherscan.io/address/0x846fb11a8a8b3186d172ed7f283693815a7a3e18">
+            {description}
+          </a>
         </div>
 
         <div className="mt-10">
@@ -52,7 +50,7 @@ const Features = () => {
         </div>
         {/* Section 2 */}
         <div className="lg:text-center mt-20">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-primary sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-primary sm:text-4xl text-center">
             {traitsTitle}
           </p>
           <p className="mt-4 max-w-2xl text-xl text-secondary lg:mx-auto">

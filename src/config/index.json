@@ -18,8 +18,8 @@
     }
   ],
   "callToAction": {
-    "text": "Get started",
-    "href": "#"
+    "text": "Join us Now!",
+    "href": "https://pengin-nftmint.netlify.app/"
   },
   "mainHero": {
     "title": "Welcome to the",

@@ -23,7 +23,7 @@ const AboutUs = () => {
           ))}
         </h1>
         <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
+          <div className={`sm:w-1/2 p-6 mt-20 align-middle `}>
             <h3
               className={`text-3xl text-tertiary font-bold leading-none mb-3 text-center`}
             >
@@ -57,22 +57,6 @@ const AboutUs = () => {
               </h3>
               <Divider />
               <p className={`text-white mb-8`}>{secondItem?.description}</p>
-            </div>
-          </div>
-          <div className="flex flex-row bg-tertiary mt-20">
-            <div className="text-white uppercase text-center p-10">
-              {about.bannerTitle}
-            </div>
-            <div className="text-white text-center p-10">
-              {about.bannerDescription}
-            </div>
-            <div className="p-5 sm:mt-0 sm:ml-3">
-              <a
-                href={"https://testnets.opensea.io/collection/pengin-nft"}
-                className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary  text-secondary bg-primary hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10 text-center`}
-              >
-                {about.button}
-              </a>
             </div>
           </div>
         </div>
