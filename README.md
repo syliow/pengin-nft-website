@@ -6,7 +6,7 @@ Pengin Club is my first personal NFT (Non-Fungible Token) collection. I'm really
 >I'm not the only one with this idea! There are many other developers and designers who are creating websites, projects, and even businesses on the Ethereum blockchain. It's amazing to see what people are creating with this new technology!
 
 ### ✨ [View Live Website here](https://penginclub-nft.netlify.app/)
-### 🖼️ [View NFT collection on Opensea](https://testnets.opensea.io/collection/pengin-nft-club)
+### 🖼️ [View NFT collection on Opensea](https://testnets.opensea.io/collection/pengin-nft-1)
 
 ## What is Pengin Club NFT? 
 - Pengin Club is a collection of 3,333 Penguin NFTs—unique digital collectibles living on the Ethereum blockchain.
