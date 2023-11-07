@@ -25,7 +25,7 @@ const Features = () => {
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-secondary sm:text-4xl text-center">
             {subtitle}
           </p>
-          <a href="https://rinkeby.etherscan.io/address/0x846fb11a8a8b3186d172ed7f283693815a7a3e18">
+          <a href="https://mumbai.polygonscan.com/address/0x52CaE6483C468C8C0720163a2C0DDfaa0a3b123C">
             {description}
           </a>
         </div>
